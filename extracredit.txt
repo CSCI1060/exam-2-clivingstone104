@@ -1,2 +1,2 @@
-Use this file to submit the extra credit problem. Be sure to describe your
-process for solving the problem, and not just to give the solution. 
+To decrypt the message, we need to shift each letter in the encoded text backward by 3 positions in the alphabet, leaving spaces and punctuation marks unchanged. I knew to do 3 shifts by trial and error. I started with 1 and 2 shifts, but it made the most sense for the message to start with "I", so I went with 3 shifts. For example, if the encoded letter is 'L', we subtract 3 positions to get 'I', 'Z' becomes 'W', and 'V' becomes 'S'. 
+After applying the decryption process to each letter in the message, we obtain the original text: “I WISH IT NEED NOT HAVE HAPPENED IN MY TIME,” SAID GANDALF. “SO DO I,” SAID ARAGORN, “AND SO DO ALL WHO LIVE TO SEE SUCH TIMES. BUT THAT IS NOT FOR THEM TO DECIDE. ALL WE HAVE TO DECIDE IS WHAT TO DO WITH THE TIME THAT IS GIVEN, US.”
